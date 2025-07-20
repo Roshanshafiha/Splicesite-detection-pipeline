@@ -9,7 +9,7 @@
 
 ## 📖 Overview
 
-This pipeline performs splice-site variant detection and annotation from **RNA-seq VCF files**, using multiple predictive tools and reference databases. It is built using **Nextflow DSL2** and supports modular, scalable analysis in research or clinical environments.
+This pipeline performs splice-site variant detection and annotation from **WGS VCF files**, using multiple predictive tools and reference databases. It is built using **Nextflow DSL2** and supports modular, scalable analysis in research or clinical environments.
 
 ---
 
