@@ -111,14 +111,18 @@ nextflow run main.nf \
 
 ##  🧪 Example Input Format
 
+```text
 input_data/
 ├── MNZ-001/
 │   └── MNZ-001.vcf.gz
 ├── MNZ-002/
 │   └── MNZ-002.vcf.gz
 
+```
 
-flowchart TD
+## 🔄 Pipeline
+
+```mermaid
     A[Input VCFs] --> B[Initial Filtering (bcftools)]
     B --> C[Split by Chromosome]
 
@@ -138,6 +142,6 @@ flowchart TD
     G --> H[VCF to TSV Conversion]
     H --> I[Final Results]
 
-
+```
 
 
