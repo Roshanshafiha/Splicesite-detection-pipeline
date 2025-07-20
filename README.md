@@ -124,24 +124,24 @@ input_data/
 
 ```mermaid
 flowchart TD
-    A[Input VCFs] --> B[Initial Filtering (bcftools)]
-    B --> C[Split by Chromosome]
+    A["Input VCFs"] --> B["Initial Filtering (bcftools)"]
+    B --> C["Split by Chromosome"]
 
-    C --> D1[SpliceAI Annotation]
-    C --> D2[Pangolin Annotation]
-    C --> D3[SQUIRLS Annotation]
+    C --> D1["SpliceAI Annotation"]
+    C --> D2["Pangolin Annotation"]
+    C --> D3["SQUIRLS Annotation"]
 
-    D1 --> E1[Update SpliceAI Scores]
-    D2 --> E2[Update Pangolin Scores]
-    D3 --> E3[SQUIRLS Output]
+    D1 --> E1["Update SpliceAI Scores"]
+    D2 --> E2["Update Pangolin Scores"]
+    D3 --> E3["SQUIRLS Output"]
 
-    E1 --> F[VCF Concatenation]
+    E1 --> F["VCF Concatenation"]
     E2 --> F
     E3 --> F
 
-    F --> G[Merge with SpliceVarDB & Gene Panel]
-    G --> H[VCF to TSV Conversion]
-    H --> I[Final Results]
-```
+    F --> G["Merge with SpliceVarDB & Gene Panel"]
+    G --> H["VCF to TSV Conversion"]
+    H --> I["Final Results"]
+
 
 
