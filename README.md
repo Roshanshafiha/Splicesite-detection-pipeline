@@ -69,7 +69,7 @@ Splice-site-detection-pipeline/
 └── input_data/                   # (User-provided) VCF inputs
 
 
-
+```
 ---
 
 ## 🌐 How to Run the Pipeline
