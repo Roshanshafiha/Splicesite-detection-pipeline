@@ -32,7 +32,7 @@ This pipeline performs splice-site variant detection and annotation from **WGS V
 - Java 11+
 - Docker or Singularity (optional but recommended)
 - Required files:
-  - VCF files from RNA-seq variants
+  - VCF files from WGS data 
   - BED file with coding regions
   - Reference genomes and annotation databases for tools
   - SpliceVarDB and Genomics England panel files
