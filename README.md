@@ -89,6 +89,8 @@ nextflow run main.nf \
   --inputDir ./input_data \
   --outputDir ./pipeline-output \
   --reads "./input_data/MND-*/MND-*.vcf.gz"
+```
+
 ##  Parameters
 
 | Parameter                  | Description                          |
