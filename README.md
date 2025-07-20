@@ -123,6 +123,7 @@ input_data/
 ## 🔄 Pipeline
 
 ```mermaid
+flowchart TD
     A[Input VCFs] --> B[Initial Filtering (bcftools)]
     B --> C[Split by Chromosome]
 
@@ -141,7 +142,6 @@ input_data/
     F --> G[Merge with SpliceVarDB & Gene Panel]
     G --> H[VCF to TSV Conversion]
     H --> I[Final Results]
-
 ```
 
 
